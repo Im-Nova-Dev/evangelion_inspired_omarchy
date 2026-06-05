@@ -1,0 +1,30 @@
+/*
+  Theme: Evangelion Unit-01
+  Concept: heavy purple + EVA-01 green accents, with chartreuse warning highlights.
+  */
+
+@define-color base            #1a0b2e;
+@define-color surface         #1f0e36;
+@define-color overlay         #28133f;
+
+@define-color muted           #6a5772;
+@define-color subtle          #93788f;
+@define-color text            #f1e5ff;
+
+@define-color love            #39ff14;   /* EVA-01 neon green */
+@define-color gold            #ffb84d;   /* caution / warm */
+@define-color rose            #d45dff;   /* highlight purple */
+@define-color pine            #82e0aa;   /* secondary green */
+@define-color foam            #b39ddb;   /* lavender */
+@define-color iris            #9d4edd;   /* deep purple */
+
+@define-color highlightLow    #24002f;
+@define-color highlightMed    #3e0050;
+@define-color highlightHigh   #5c1a75;
+
+/* Additional semantic colors */
+@define-color love-glow       #39ff14;
+@define-color pine-glow       #00ff9d;
+@define-color iris-neon       #b14bfc;
+@define-color gold-neon       #ffcc66;
+@define-color rose-magenta    #ff3cb8;

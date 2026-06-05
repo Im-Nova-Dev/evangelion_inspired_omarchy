@@ -1,0 +1,69 @@
+##############################################
+#                                            #
+#          Evangelion 01 Theme              #
+#                                            #
+##############################################
+
+###############################################################################
+#                           Code Syntax Highlighting                          #
+###############################################################################
+
+code_syntax_highlight = "catppuccin-mocha"
+
+###############################################################################
+#                                 Base Colors                                 #
+###############################################################################
+
+#-- Full Screen
+full_screen_fg = "#D8B4FE"
+full_screen_bg = "#1a0b1f"
+
+#-- Gradient
+# Note: This currently only supports two colors.
+gradient_color = ["#7C3AED", "#4ADE80"]
+
+#-- File Panel
+file_panel_fg = "#E9D5FF"
+file_panel_bg = "#1a0b1f"
+file_panel_border = "#3B0764"
+file_panel_border_active = "#A78BFA"
+file_panel_top_directory_icon = "#4ADE80"
+file_panel_top_path = "#7C3AED"
+file_panel_item_selected_fg = "#FFFFFF"
+file_panel_item_selected_bg = "#2E1065"
+
+#-- Footer
+footer_fg = "#E9D5FF"
+footer_bg = "#1a0b1f"
+footer_border = "#3B0764"
+footer_border_active = "#4ADE80"
+
+#-- Sidebar
+sidebar_fg = "#E9D5FF"
+sidebar_bg = "#1a0b1f"
+sidebar_title = "#8B5CF6"
+sidebar_border = "#1a0b1f"
+sidebar_border_active = "#4ADE80"
+sidebar_item_selected_fg = "#FFFFFF"
+sidebar_item_selected_bg = "#2E1065"
+sidebar_divider = "#3B0764"
+
+#-- Modals
+modal_fg = "#E9D5FF"
+modal_bg = "#1a0b1f"
+modal_border_active = "#7C3AED"
+modal_cancel_fg = "#FFFFFF"
+modal_cancel_bg = "#4ADE80"
+modal_confirm_fg = "#FFFFFF"
+modal_confirm_bg = "#7C3AED"
+
+#-- Help Menu
+help_menu_hotkey = "#7C3AED"
+help_menu_title = "#4ADE80"
+
+#-- Special
+cursor = "#00FF00"
+correct = "#4ADE80"
+error = "#EF4444"
+hint = "#7C3AED"
+cancel = "#4ADE80"

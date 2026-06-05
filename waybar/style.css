@@ -1,0 +1,235 @@
+@import "./evangelion.css";
+
+/* --- Global --- */
+
+* {
+  font-family: 'JetBrainsMono Nerd Font';
+  font-size: 12px;
+  font-weight: 800;
+  min-height: 0px;
+  border-radius: 3px;
+}
+
+/* --- Bar shell --- */
+
+window#waybar {
+  background-color: transparent;
+  transition-property: background-color;
+  transition-duration: .5s;
+}
+
+#waybar > box {
+  margin: 4px 10px;
+  padding: 1px;
+  background-color: @surface;
+  border: 1px solid alpha(@iris-neon, 0.35);
+  box-shadow:
+    inset 3px 0 0 0 @iris-neon,
+    inset -3px 0 0 0 @love,
+    0px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* --- Module groups --- */
+
+#left1, #left2, #left3, #left4,
+#right1, #right2,
+.modules-center {
+  margin: 0px 2px;
+  padding: 0 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+#left1 {
+  background-color: @overlay;
+  border-radius: 2px;
+  box-shadow: inset 0 -3px 0 0 @rose;
+}
+
+#left2 {
+  background-color: @overlay;
+  box-shadow: inset 0 -3px 0 0 @love;
+  padding: 0px;
+}
+
+#left3 {
+  background-color: @surface;
+  box-shadow: inset 0 -3px 0 0 @iris-neon;
+}
+
+.modules-center {
+  background-color: @surface;
+  box-shadow: inset 0 -3px 0 0 @pine;
+  padding: 0px;
+}
+
+#right1 {
+  background-color: @surface;
+  box-shadow: inset 0 -3px 0 0 @gold;
+}
+
+#right2 {
+  background-color: @overlay;
+  box-shadow: inset 0 -3px 0 0 @rose-magenta;
+}
+
+/* --- Empty window --- */
+
+window#waybar.empty #window {
+  background: transparent;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  color: transparent;
+  padding: 0;
+  margin: 0;
+}
+
+#waybar.empty .modules-center {
+  opacity: 0;
+}
+
+/* --- Media --- */
+
+#mpris {
+  background-color: @surface;
+  box-shadow: inset 0 -3px 0 0 @love;
+  color: @love-glow;
+}
+
+/* --- Workspaces --- */
+
+#workspaces {
+  background-color: transparent;
+  padding: 0px;
+  margin: 0px;
+}
+
+#workspaces button {
+  color: @subtle;
+  padding: 0 8px;
+  margin: 2px 2px;
+  transition: all 0.2s ease;
+  opacity: 0.75;
+}
+
+#workspaces button.active {
+  color: @love-glow;
+}
+
+#workspaces button.empty {
+  color: @muted;
+  opacity: 0.2;
+}
+
+#workspaces button.empty.active {
+  color: @iris-neon;
+  opacity: 1;
+}
+
+#workspaces button:hover {
+  background-color: alpha(@highlightMed, 0.6);
+  color: @text;
+}
+
+#workspaces button.urgent {
+  color: @base;
+  background-color: @love;
+}
+
+/* --- General modules --- */
+
+#tray,
+#window,
+#cpu,
+#clock,
+#battery,
+#network,
+#memory,
+#backlight,
+#bluetooth,
+#pulseaudio,
+#custom-weather,
+#custom-update,
+#idle_inhibitor,
+#custom-idle-indicator,
+#custom-notification-silencing-indicator,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-updatespacman {
+  min-width: 16px;
+  margin: 0 2px;
+  padding: 0 4px;
+}
+
+#custom-update {
+  padding-left: 3px;
+}
+
+/* --- Module color accents --- */
+
+#custom-omarchy  { color: @rose-magenta; }
+#clock           { color: @text; }
+#cpu             { color: @rose; }
+#memory          { color: @iris-neon; }
+#pulseaudio      { color: @love; }
+#network         { color: @pine; }
+#battery         { color: @gold-neon; }
+#backlight       { color: @gold; }
+#idle_inhibitor.activated   { color: @love; }
+#idle_inhibitor.deactivated { color: @muted; }
+#tray            { color: @muted; }
+
+#custom-voxtype {
+  min-width: 12px;
+  margin: 0 0 0 7.5px;
+}
+
+#custom-voxtype.recording,
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active {
+  color: @love-glow;
+}
+
+#custom-idle-indicator,
+#custom-notification-silencing-indicator {
+  min-width: 12px;
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 12px;
+  padding-bottom: 1px;
+}
+
+/* --- Tray --- */
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: @transparent;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+/* --- Tooltips --- */
+
+tooltip {
+  background-color: @surface;
+  border: 1px solid @iris-neon;
+  border-radius: 3px;
+}
+
+tooltip label {
+  color: @text;
+  padding: 4px;
+}
+
+/* --- Animations --- */
+
+#custom-screenrecording-indicator.active {
+  color: @love-glow;
+  animation: blink-recording 0.5s infinite alternate linear;
+}
+
+@keyframes blink-recording {
+  to { color: transparent; }
+}
