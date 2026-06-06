@@ -5,7 +5,7 @@ evangelion unit-01 omarchy rice , i really like the whole green/purple colors
 i chose kitty over alacritty just because of the Kitty graphics protocol
 
 
-##### monoki install
+### monoki install
 Pacman
 
     sudo pacman -S ttf-mononoki-nerd
