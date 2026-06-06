@@ -1,6 +1,7 @@
 # Omarchy Unit-01 Theme
 
-(first project kinda)
+(first project kinda, im learning .md using this)
+
 evangelion unit-01 omarchy rice , i really like the whole green/purple colors 
 i chose kitty over alacritty just because of the Kitty graphics protocol
 
