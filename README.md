@@ -4,7 +4,7 @@
 
 evangelion unit-01 omarchy rice , i really like the whole green/purple colors
 
-i chose kitty over alacritty just because of the Kitty graphics protocol so my fast fetch looks cool 
+i chose kitty over alacritty just because of the Kitty graphics protocol makes it easy to show an image in fastfetch 
 
 
 ### monoki install
