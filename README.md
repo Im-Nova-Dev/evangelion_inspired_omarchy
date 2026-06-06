@@ -6,6 +6,10 @@ i chose kitty over alacritty just because of the Kitty graphics protocol
 
 
 ##### monoki install
+Pacman
+
+    sudo pacman -S ttf-mononoki-nerd
+Yay
 
     yay -S ttf-mononoki
 
