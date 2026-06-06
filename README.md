@@ -10,6 +10,7 @@ monoki install
     yay -S ttf-mononoki
 
 
+fucking stupid md
 
     - #1a0b1f - background
     - #7C3AED - primary purple
