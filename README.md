@@ -36,5 +36,5 @@ Yay
 
 i have a weird config that make SUPER + Insert pop open terminal and launch hermes,
 
-this only makes sense on my ROG azoth X as it is the last button on the top right side.
+this only makes sense on the ROG azoth X as it is the last button on the top right side.
 
