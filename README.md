@@ -31,6 +31,3 @@ omarchy-theme-install https://github.com/novaclankerdev/evangelion_inspired_omar
 - `#EF4444` — red
 - `#00FF00` — cursor green
 
-## Notes
-
-This config maps `SUPER + Insert` to open a terminal and launch Hermes. That binding is tailored to the ROG Azoth X, where `Insert` is the last key on the top-right row.
