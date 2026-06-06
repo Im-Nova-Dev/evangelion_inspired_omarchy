@@ -2,7 +2,7 @@
 
 (first project kinda)
 evangelion unit-01 omarchy rice , i really like the whole green/purple colors 
-i chose kitty over alacritty just because of the kitty image
+i chose kitty over alacritty just because of the Kitty graphics protocol
 
     - #1a0b1f - background
     - #7C3AED - primary purple
