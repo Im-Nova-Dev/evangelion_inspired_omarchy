@@ -11,9 +11,8 @@ i chose kitty over alacritty just because of the Kitty graphics protocol makes i
 Pacman
 
     sudo pacman -S ttf-mononoki-nerd
-Yay
-
-    yay -S ttf-mononoki
+    cp -r "theme files"/* ~/.config/omarchy/current/theme/
+    
 
 
 --- 
